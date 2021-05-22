@@ -1,0 +1,29 @@
+{
+  "name": "toxicityzero",
+  "version": "1.0.0",
+  "description": "discord bot demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasd302/toxicityzero.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "toxicity"
+  ],
+  "author": "Shreyas Dungarwal#6189",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shreyasd302/toxicityzero/issues"
+  },
+  "homepage": "https://github.com/shreyasd302/toxicityzero#readme",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^3.3.0",
+    "discord.js": "^12.5.3"
+  }
+}
